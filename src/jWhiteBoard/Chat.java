@@ -12,7 +12,7 @@ public class Chat extends ReceiverAdapter {
     JChannel channel;
 
     public void viewAccepted(View new_view) {
-        System.out.println("** view: " + new_view);
+        System.out.println("**xem: " + new_view);
     }
 
     public void receive(Message msg) {
